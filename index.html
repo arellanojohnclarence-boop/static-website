@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Secret Life of John Clarence Arellano — a personal profile about his life, personality, hobbies, interests, games, movies, and shows.">
+  <title>The Secret Life of John Clarence Arellano</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bat-signal" aria-hidden="true"></div>
+
+  <header class="site-header" id="home">
+    <nav class="navbar">
+      <a class="brand" href="#home"><span class="brand-mark">JC</span><span>JOHN CLARENCE</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#interests">Interests</a>
+        <a href="#favorites">Favorites</a>
+        <a href="#life">Life</a>
+        <a href="#connect">Connect</a>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">THE SECRET LIFE OF</p>
+        <h1>JOHN<br><span>CLARENCE</span><br>ARELLANO</h1>
+        <p class="hero-text">A little window into the person behind the code, games, stories, late-night questions, and everyday life.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#about">Enter the profile</a>
+          <button class="btn btn-outline" id="welcomeBtn">Say hello</button>
+        </div>
+      </div>
+
+      <div class="portrait-frame">
+        <div class="frame-label">PERSONAL FILE // JC-2005</div>
+        <div class="portrait-inner">
+          <img src="assets/me.png" alt="Portrait of John Clarence Arellano" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+          <div class="image-placeholder">
+            <span class="placeholder-icon">JC</span>
+            <strong>YOUR PHOTO GOES HERE</strong>
+            <small>Save your Batman-themed portrait as<br><b>assets/me.png</b></small>
+          </div>
+        </div>
+        <div class="frame-caption"><span>JOHN CLARENCE ARELLANO</span><span>02.01.2005</span></div>
+      </div>
+    </div>
+
+    <div class="hero-bottom">
+      <div class="clock-card">
+        <span class="label">LOCAL TIME</span>
+        <strong id="liveClock">--:--:-- --</strong>
+        <small id="liveDate">Loading date...</small>
+      </div>
+      <div class="scroll-note">SCROLL TO DISCOVER <span>↓</span></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <span class="section-number">01</span>
+        <div><p class="eyebrow">THE PERSON</p><h2>More Than<br><span>A Student</span></h2></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="lead">I'm <b>John Clarence</b>, a 21-year-old Computer Science student who likes building things, getting lost in good stories, and asking way too many questions when something doesn't make sense.</p>
+          <p>I'm generally quiet around people I don't know, but once I'm comfortable, I'm much more expressive, playful, and talkative. I value genuine friendships, loyalty, meaningful conversations, and people who are comfortable being themselves.</p>
+          <p>This page is meant to be a small, honest introduction — the things I enjoy, the stories that stayed with me, the stuff I'm learning, and a few pieces of the person behind the screen.</p>
+          <div class="facts">
+            <div><span>NAME</span><b>John Clarence G. Arellano</b></div>
+            <div><span>BIRTHDAY</span><b>February 1, 2005</b></div>
+            <div><span>MBTI</span><b>INFJ</b></div>
+            <div><span>ZODIAC</span><b>Aquarius ♒</b></div>
+            <div><span>CHINESE ZODIAC</span><b>Wood Rooster</b></div>
+            <div><span>HEIGHT</span><b>169 cm</b></div>
+            <div><span>FIELD</span><b>Computer Science</b></div>
+          </div>
+        </div>
+        <aside class="quote-card">
+          <div class="quote-mark">“</div>
+          <p>I don't just want an answer. I want to understand why.</p>
+          <span>— A pretty accurate description of me</span>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="interests">
+      <div class="section-heading light">
+        <span class="section-number">02</span>
+        <div><p class="eyebrow">THE INTERESTS</p><h2>Things That<br><span>Keep Me Going</span></h2></div>
+      </div>
+      <div class="interest-grid">
+        <article class="interest-card"><div class="interest-icon">⌨</div><h3>Technology</h3><p>Computer Science, programming, Flutter, web development, databases, Power BI, and building projects that actually do something.</p></article>
+        <article class="interest-card"><div class="interest-icon">🎮</div><h3>Story Games</h3><p>Open worlds, memorable characters, exploration, realistic settings, and campaigns that make me forget how long I've been playing.</p></article>
+        <article class="interest-card"><div class="interest-icon">🎬</div><h3>Stories</h3><p>Movies and series that leave something behind — a thought, a feeling, a character, or a question I keep thinking about.</p></article>
+        <article class="interest-card"><div class="interest-icon">🗺</div><h3>Building Sasakay</h3><p>A Metro Manila commuter-navigation project focused on helping people understand routes, transfers, fares, and travel options.</p></article>
+        <article class="interest-card"><div class="interest-icon">🧠</div><h3>Understanding Things</h3><p>I like digging into how systems work. If an explanation has a missing piece, chances are I'll notice and ask about it.</p></article>
+        <article class="interest-card"><div class="interest-icon">☕</div><h3>Quiet Time</h3><p>I'm naturally more comfortable in smaller circles. I value close friendships and conversations where nobody has to pretend.</p></article>
+      </div>
+    </section>
+
+    <section class="section personality-section" id="life">
+      <div class="section-heading">
+        <span class="section-number">03</span>
+        <div><p class="eyebrow">THE PERSONALITY</p><h2>Quiet Outside.<br><span>Not So Quiet Inside.</span></h2></div>
+      </div>
+      <div class="personality-layout">
+        <div class="traits">
+          <span>Introverted</span><span>Curious</span><span>Empathetic</span><span>Private</span><span>Playful</span><span>Analytical</span><span>Loyal</span><span>Detail-oriented</span><span>People-oriented</span><span>Overthinker</span><span>Independent-minded</span><span>Story-driven</span>
+        </div>
+        <div class="personality-copy">
+          <h3>INFJ — The way I see myself</h3>
+          <p>I tend to observe first and open up later. With strangers, I can be reserved. With people I trust, I can become surprisingly expressive.</p>
+          <p>I care a lot about how people feel, but I also like things to make logical sense. That combination probably explains why I can spend an absurd amount of time thinking about both a technical problem and a tiny interaction from earlier in the day.</p>
+          <div class="mini-note"><b>One thing about me:</b> I don't like pretending to understand something just because everyone else seems to get it.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section favorites-section" id="favorites">
+      <div class="section-heading">
+        <span class="section-number">04</span>
+        <div><p class="eyebrow">THE ARCHIVE</p><h2>Stories That<br><span>Left A Mark</span></h2></div>
+      </div>
+
+      <div class="archive-block">
+        <div class="archive-title"><span>01</span><h3>GAMES I'VE COMPLETED / PLAYED</h3></div>
+        <div class="poster-grid">
+          <article class="poster-card"><img src="assets/Red_Dead_Redemption_II.jpg" alt="Red Dead Redemption II"><div><b>Red Dead Redemption II</b><small>A huge world built around character, consequence, loyalty, and the slow passage of time.</small></div></article>
+          <article class="poster-card"><img src="assets/GTAsan.jpg" alt="GTA San Andreas"><div><b>GTA: San Andreas</b><small>A classic open-world game that remains one of the games I remember strongly from growing up.</small></div></article>
+          <article class="poster-card"><img src="assets/witcher3.jpg" alt="The Witcher 3"><div><b>The Witcher 3</b><small>Choices, relationships, monsters, politics, and one of my favorite game worlds to get lost in.</small></div></article>
+          <article class="poster-card"><img src="assets/kcd.jpg" alt="Kingdom Come Deliverance II"><div><b>Kingdom Come: Deliverance II</b><small>Historical immersion, grounded combat, exploration, and a world that feels lived in.</small></div></article>
+          <article class="poster-card"><img src="assets/ass.jpg" alt="Assassin's Creed IV Black Flag"><div><b>Assassin's Creed IV: Black Flag</b><small>Pirates, ships, exploration, and an open world that made the series especially memorable for me.</small></div></article>
+          <article class="poster-card"><img src="assets/sleep.jpg" alt="Sleeping Dogs"><div><b>Sleeping Dogs</b><small>An open-world crime story with a setting and atmosphere that made it stand out.</small></div></article>
+          <article class="poster-card"><img src="assets/ghost.jpg" alt="Ghost of Tsushima"><div><b>Ghost of Tsushima</b><small>Beautiful exploration, samurai drama, combat, and a strong sense of place.</small></div></article>
+          <article class="poster-card"><img src="assets/cyberpunk2077.jpg" alt="Cyberpunk 2077"><div><b>Cyberpunk 2077</b><small>A futuristic RPG centered on identity, relationships, choices, and a dense city.</small></div></article>
+          <article class="poster-card"><img src="assets/Mafia_Definitive_Edition.jpg" alt="Mafia Definitive Edition"><div><b>Mafia: Definitive Edition</b><small>A cinematic crime story with a focused narrative and period atmosphere.</small></div></article>
+        </div>
+      </div>
+
+      <div class="archive-block">
+        <div class="archive-title"><span>02</span><h3>MOVIES</h3></div>
+        <div class="poster-grid movies-grid">
+          <article class="poster-card"><img src="assets/3idiots.jpg" alt="3 Idiots"><div><b>3 Idiots</b><small>Friendship, expectations, education, and finding your own path.</small></div></article>
+          <article class="poster-card"><img src="assets/deadpoetsociety.jpg" alt="Dead Poets Society"><div><b>Dead Poets Society</b><small>Individuality, pressure, education, and the value of living deliberately.</small></div></article>
+          <article class="poster-card"><img src="assets/interstellar.jpg" alt="Interstellar"><div><b>Interstellar</b><small>Time, family, sacrifice, exploration, and humanity's need to reach beyond itself.</small></div></article>
+          <article class="poster-card"><img src="assets/heneralluna.jpg" alt="Heneral Luna"><div><b>Heneral Luna</b><small>A Philippine historical drama about conflict, leadership, and national identity.</small></div></article>
+          <article class="poster-card"><img src="assets/grandbudapesthotel.jpg" alt="The Grand Budapest Hotel"><div><b>The Grand Budapest Hotel</b><small>Stylized storytelling, friendship, absurdity, and a beautifully strange world.</small></div></article>
+          <article class="poster-card"><img src="assets/trumanshow.jpg" alt="The Truman Show"><div><b>The Truman Show</b><small>Identity, freedom, reality, and the courage to step outside a life built for you.</small></div></article>
+          <article class="poster-card"><img src="assets/forrestgumpp.jpg" alt="Forrest Gump"><div><b>Forrest Gump</b><small>A life story about love, chance, loss, persistence, and moving forward.</small></div></article>
+          <article class="poster-card"><img src="assets/piratesofthecaribean.jpg" alt="Pirates of the Caribbean"><div><b>Pirates of the Caribbean</b><small>Adventure, humor, memorable characters, and a world I grew attached to.</small></div></article>
+        </div>
+      </div>
+
+      <div class="archive-block">
+        <div class="archive-title"><span>03</span><h3>TV SERIES</h3></div>
+        <div class="poster-grid series-grid">
+          <article class="poster-card"><img src="assets/modernfamily.jpg" alt="Modern Family"><div><b>Modern Family</b><small>Family chaos, comedy, and characters that become familiar over time.</small></div></article>
+          <article class="poster-card"><img src="assets/theoffice.jpg" alt="The Office"><div><b>The Office</b><small>Awkward comedy, workplace friendships, and characters I can spend seasons with.</small></div></article>
+          <article class="poster-card"><img src="assets/onepiece.jpg" alt="One Piece"><div><b>One Piece</b><small>Adventure, friendship, dreams, and an enormous world that keeps expanding.</small></div></article>
+          <article class="poster-card"><img src="assets/thelastkingdom.jpg" alt="The Last Kingdom"><div><b>The Last Kingdom</b><small>Historical conflict, identity, loyalty, and a protagonist caught between worlds.</small></div></article>
+          <article class="poster-card"><img src="assets/peakyblinders.jpg" alt="Peaky Blinders"><div><b>Peaky Blinders</b><small>Crime, family, ambition, atmosphere, and complicated characters.</small></div></article>
+          <article class="poster-card"><img src="assets/reply1988.jpg" alt="Reply 1988"><div><b>Reply 1988</b><small>Friendship, family, growing up, and the warmth of ordinary life.</small></div></article>
+          <article class="poster-card"><img src="assets/mrqueen.jpg" alt="Mr Queen"><div><b>Mr. Queen</b><small>Comedy, historical setting, relationships, and a very unusual premise.</small></div></article>
+          <article class="poster-card"><img src="assets/twinlingwatermelon.jpg" alt="Twinkling Watermelon"><div><b>Twinkling Watermelon</b><small>Family, music, youth, second chances, and emotional time-travel storytelling.</small></div></article>
+          <article class="poster-card"><img src="assets/vikings.jpg" alt="Viking"><div><b>Vikings</b><small>A historical saga I enjoyed, especially its earlier seasons.</small></div></article>
+        </div>
+      </div>
+
+      <div class="anime-note">
+        <div class="anime-symbol">✦</div>
+        <div><h3>ANIME / ANIME-STYLE STORIES</h3><p>Anime is also part of the wider circle of stories around me. Titles I've discussed include <b>Wotakoi, Komi Can't Communicate, Kaguya-sama: Love Is War, Toradora!, My Sweet Tyrant,</b> and <b>The Pet Girl of Sakurasou</b>. Some of these were shared with me in the context of someone else's favorites, so I don't want to pretend they are all my personal favorites.</p></div>
+      </div>
+    </section>
+
+    <section class="section birthday-section" id="birthday">
+      <div class="birthday-card">
+        <div><p class="eyebrow">NEXT PERSONAL MILESTONE</p><h2>COUNTING DOWN TO<br><span>MY BIRTHDAY</span></h2><p>February 1, 2027</p></div>
+        <div class="countdown" aria-label="Countdown to birthday">
+          <div><strong id="days">--</strong><span>DAYS</span></div>
+          <div><strong id="hours">--</strong><span>HOURS</span></div>
+          <div><strong id="minutes">--</strong><span>MINUTES</span></div>
+          <div><strong id="seconds">--</strong><span>SECONDS</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section connect-section" id="connect">
+      <div class="connect-card">
+        <div><p class="eyebrow">THE OPEN DOOR</p><h2>Want to know me<br><span>outside the website?</span></h2><p>I'm making this page as a way to be a little more transparent with acquaintances and friends. If we've met, feel free to say hi.</p></div>
+        <a class="facebook-link" href="https://www.facebook.com/share/19YxK9dM4C/" target="_blank" rel="noopener noreferrer">Visit my Facebook <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand">JC<span>.</span></div>
+    <p>THE SECRET LIFE OF JOHN CLARENCE ARELLANO</p>
+    <p>Made as a personal introduction · 2026</p>
+  </footer>
+
+  <div class="toast" id="toast" role="status">Welcome to my little corner of the internet.</div>
+  <button class="top-button" id="topButton" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
